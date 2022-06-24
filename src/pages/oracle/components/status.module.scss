@@ -1,0 +1,38 @@
+.status {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    font-size: 0;
+    margin-right: 7px;
+    margin-bottom: 6.6px;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .active,
+  .terminated,
+  .suspended {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 14px;
+    margin-bottom: 6px;
+  }
+  .active{
+    color: #76FCB3;
+  }
+  .terminated{
+    color: #FF007A;
+  }
+  .suspended{
+    color: #FFE500;
+  }
+}

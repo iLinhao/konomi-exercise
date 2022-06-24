@@ -1,0 +1,28 @@
+.layout-header {
+  margin-top: 60px;
+  display: flex;
+  justify-content: end;
+  color: white;
+  font-size: 18px;
+  padding-right: 160px;
+}
+
+.layout-header p {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.layout-header p:hover {
+  color: #00D7D7;
+}
+
+.layout-header .active-menu {
+  color: #00D7D7;
+  text-decoration: underline;
+}
+
+.layout-background {
+  background-color: #221334;
+  width: 100%;
+  overflow-x: hidden;
+}
